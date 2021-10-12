@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="Fastest Linkvertise bypasser ever! Bypass all ad-links for free!" />
+<meta name="author" content="VensGTH" />
+<meta name="keywords" content="linkvertise bypasser, linkvertise bypass, universal bypass, linkvertise hack, linkvertise, link vertise, bypasser, bypass linkvertise, how to bypass linkvertise, how to skip linkvertise, linkvertise skipper, skip linkvertise, skip linkvertise ads, linkvertise ads bypass, linkvertise ads bypasser" />
+<title>Sphynx - Linkvertise Bypasser</title>
+
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+<script src="./js/fontawesome/all.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+
+<link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+<nav class="navbar navbar-light bg-light static-top">
+<div class="container">
+<a class="navbar-brand" href="#">SPHYNX</a>
+<a class="btn btn-outline-success" href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub </a>
+</div>
+</nav>
+
+<header class="masthead text-white text-center">
+<div class="overlay"></div>
+<div class="container">
+<div class="row">
+<div class="col-xl-9 mx-auto"><h1 class="mb-2">Sphynx</h1></div>
+<div class="col-xl-9 mx-auto"><h3 class="mt-2">#1 Linkvertise bypasser!</h3></div>
+<div class="col-xl-9 mx-auto">
+<div class="alert alert-warning" role="alert" style="display: none" id="warning"></div>
+<div class="alert alert-success" role="alert" style="display: none" id="success"></div>
+<div class="alert alert-danger" role="alert" style="display: none" id="danger"></div>
+<div id="issCache" style="display:none;">
+                <br>
+                <p>Result inaccurate? </p>
+                <button onclick="byypass('1')">Click me to retry</button>
+                <br>
+            </div>
+</div>
+<div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+<div class="form-row">
+<div class="col-12 col-md-9 mb-2 mb-md-0">
+<input class="form-control form-control-lg" type="text" id="lnk" placeholder="Enter your link..." />
+</div>
+<div class="col-12 col-md-3" id="by">
+<button class="btn btn-block btn-lg btn-success" id="submit" type="submit" onclick="bypass()">Bypass!</button>
+</div>
+<div class="col-12 col-md-3" style="display: none" id="isCache">
+<button class="btn btn-block btn-lg btn-success" id="submit" type="submit" onclick="bypass('1')">Try again!</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<section class="features-icons bg-light text-center">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+<div class="features-icons-icon d-flex"><i class="icon-link m-auto text-success"></i></div>
+<h3>Supported links</h3>
+<p class="lead mb-0"><b>Ad links:</b></p>
+ <p class="lead mb-0">linkvertise.com (all of their domains)</p>
+<p class="lead mb-0">adf.ly (all of their domains)</p>
+<p class="lead mb-0">exe.io/exey.io/exee.io/exe.app/eio.io</p>
+<p class="lead mb-0">ouo.io/ouo.press</p>
+<p class="lead mb-0">adfoc.us</p>
+<p class="lead mb-0"><b>Socials:</b></p>
+<p class="lead mb-0">sub2unlock.net/sub2unlock.com</p>
+<p class="lead mb-0">sub4unlock.com</p>
+<p class="lead mb-0">boost.ink</p>
+<p class="lead mb-0">boostme.link/boost.fusedgt.com</p>
+<p class="lead mb-0"><b>Shorteners:</b></p>
+<p class="lead mb-0">bit.ly/bitly.com</p>
+<p class="lead mb-0">ity.im</p>
+<p class="lead mb-0">won.pe</p>
+<p class="lead mb-0">ow.ly</p>
+<p class="lead mb-0">cutt.ly</p>
+<p class="lead mb-0">shrto.ml</p>
+<p class="lead mb-0">goo.gl</p>
+<p class="lead mb-0">t.co</p>
+<p class="lead mb-0">adshrink.it</p>
+<p class="lead mb-0">tinyurl.com</p>
+<p class="lead mb-0">shortly.xyz</p>
+<p class="lead mb-0">shortconnect.com</p>
+<p class="lead mb-0"><b>Redirects:</b></p>
+<p class="lead mb-0">youtube.com</p>
+<p class="lead mb-0">justpaste.it</p>
+
+
+</div>
+</div>
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+<div class="features-icons-icon d-flex"><i class="icon-speedometer m-auto text-success"></i></div>
+<h3>Ultra fast!</h3>
+<p class="lead mb-0">Thanks to our custom coded API and extensive database most links get bypassed in <b>under 1 second</b>!</p>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+<div class="features-icons-icon d-flex"><i class="icon-check m-auto text-success"></i></div>
+<h3>Easy to Use</h3>
+<p class="lead mb-0">Just paste your link in the textbox and press bypass!</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="footer bg-light">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+
+
+<div>
+    <p class="text-muted small mb-4 mb-lg-0">
+        <span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span> &copy; Sphynx Bypasser . All Rights Reserved.
+    </p>   
+</div>
+
+</div>
+</div>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/scripts.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
