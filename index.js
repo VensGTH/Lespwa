@@ -167,7 +167,7 @@ function requestListner(request, response) {
                                     "link_id": json.data.link.id
                                 }), 'utf-8').toString('base64'); //get link id, make serial and convert to base64
                             }).then(() => {
-                                var lnk = "https://publisher.linkvertise.com/api/v1/redirect/link" + requestedUrl.pathname + "/target;
+                                var lnk = "https://publisher.linkvertise.com/api/v1/redirect/link" + requestedUrl.pathname + "/target";
                                 var body = JSON.stringify({
                                         "serial": o
                                     });
